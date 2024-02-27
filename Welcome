@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Demo {
+    public static void main() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the name to print ");
+        String s = sc.nextLine();
+        System.out.println("Hello " + s + " Welcome to Ambi Event Management System");
+    }
+}
